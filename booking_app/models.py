@@ -3,8 +3,8 @@ from django.db import models
 # Create your models here.
 
 class User(models.Model):
-    name = models.CharField(max_length=30)
-    surname = models.CharField(max_length=30)
+    name = models.TextField(max_length=30)
+    surname = models.TextField(max_length=30)
 
 class Place(models.Model):
     place = models.CharField(max_length=3)
