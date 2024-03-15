@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+    <h4>{{ render_string }}</h4>
+    <div class="slider">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <div class="image-container">
+          <img src="https://st4.depositphotos.com/1200816/19976/i/450/depositphotos_199763936-stock-photo-pretty-young-woman-sleeping-airplane.jpg" class="slide" width="500" height="300" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWDx6dY_MBefdXxdpizy_dOHvFxB-YQ1RGFhXelUDde1RzpVtlObBBQkAE_UFBTAx1H4g&usqp=CAU" class="slide" width="500" height="300" />
+          <img src="https://espanglish.info/sites/default/files/styles/large/public/articles/usluga_soprovozhdeniya_rebenka_v_samolete.jpg?itok=8E_HQkJ6" class="slide" width="500" height="300" />
+        </div>
+        <div class="buttons">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
+      </div>
+{% endblock %}

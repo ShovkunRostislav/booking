@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+{% for plac in place_list %}
+    <h1>Place {{plac.place}}</h1>
+    <p>Place Num #{{plac.number}}</p>
+{% endfor %}
+{% endblock %}

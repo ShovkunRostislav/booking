@@ -7,3 +7,5 @@ from .models import *
 admin.site.register(User)
 admin.site.register(Place)
 admin.site.register(Booking)
+admin.site.register(Flight)
+admin.site.register(Airport)

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            color: black;
+            background-color: whitesmoke;
+        }
+        h1 {
+            text-align: center;
+        }
+        .slider {
+            width: 500px;
+            height: 300px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .image-container {
+            width: 1500px;
+            background-color: pink;
+            height: 300px;
+            clear: both;
+            position: relative;
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+        .slide {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        #slide-1:target ~ .image-container {
+            left: 0px;
+        }
+        #slide-2:target ~ .image-container {
+            left: -500px;
+        }
+        #slide-3:target ~ .image-container {
+            left: -1000px;
+        }
+        .buttons {
+            position: relative;
+            top: -20px;
+        }
+        .buttons a {
+            display: inline-block;
+            height: 15px;
+            width: 15px;
+            border-radius: 50px;
+            background-color: lightgreen;
+        }
+        body {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            margin: 0;
+        }
+
+        .btn-warning {
+            color: #212529;
+            background-color: #ffc107;
+            border-color: #ffc107;
+        }
+
+        .btn-warning:hover {
+            color: #212529;
+            background-color: #e0a800;
+            border-color: #d39e00;
+        }
+    </style>
+</head>
+<body>
+    {% include 'header.html' %}
+    <hr>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
