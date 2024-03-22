@@ -18,5 +18,3 @@ python manage.py runserver
     3.Python - мова програмування для кодів.
     4.HTML - шаблони.
     5.Будь-який кодовий редактор для коду.
-
-[ROSTICS Airlines](https://images.playground.com/411cd1958bb3447891c0a3d3826a556c.jpeg)
