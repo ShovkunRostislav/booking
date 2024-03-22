@@ -19,4 +19,4 @@ python manage.py runserver
     4.HTML - шаблони.
     5.Будь-який кодовий редактор для коду.
 
-![ROSTICS Airlines](https://images.playground.com/411cd1958bb3447891c0a3d3826a556c.jpeg)
+[ROSTICS Airlines](https://images.playground.com/411cd1958bb3447891c0a3d3826a556c.jpeg)
