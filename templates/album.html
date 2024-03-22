@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+    <h4>{{ render_strin }}</h4>
+    <body>
+        <main>
+          <div class="album py-5 bg-light">
+            <div class="container">
+              <!-- Видаліть класи row та col з контейнера, щоб зображення розташовувалися в рядок -->
+              <div>
+                <!--альбому 1 -->
+                <a href="pln1" class="btn btn-link">
+                  <img src="https://www.biletik.aero/upload/resize_cache/format_converted/7a7f6ef34cf613f15e0006b6ffa69452.webp" alt="Зображення" width="400" height="250">
+                </a>
+                <!--альбому 2 -->
+                <a href="pln2" class="btn btn-link">
+                  <img src="https://www.biletik.aero/upload/resize_cache/format_converted/3a0c1297bfbfda87fbd7fcfc5f373cec.webp" alt="Зображення" width="400" height="250">
+                </a>
+                <!-- альбом 3 -->
+                <a href="pln3" class="btn btn-link">
+                  <img src="https://www.biletik.aero/upload/medialibrary/3c0/3c0e3382a041e0b5a0accbfa49f037a7.jpg" alt="Зображення" width="400" height="250">
+                </a>
+                <!-- Зображення-кнопка для відкриття альбому 4 -->
+                <a href="link4.html" class="btn btn-link">
+                  <img src="https://www.biletik.aero/upload/medialibrary/b2d/b2dce34aaf84990d01090176336aed83.jpg" alt="Зображення" width="400" height="250">
+                </a>
+                <!-- Зображення-кнопка для відкриття альбому 5 -->
+                <a href="link5.html" class="btn btn-link">
+                  <img src="https://www.biletik.aero/upload/resize_cache/format_converted/8033c96c1f74337d369b9902e84e2368.webp" alt="Зображення" width="400" height="250">
+                </a>
+                <!-- Зображення-кнопка для відкриття альбому 6 -->
+                <a href="link6.html" class="btn btn-link">
+                  <img src="https://www.biletik.aero/upload/resize_cache/format_converted/70096d1190486f9b2f6911b6614bf622.webp" alt="Зображення" width="400" height="250">
+                </a>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="text-muted py-5">
+          <div class="container">
+            <p class="float-end mb-1">
+              <a href="#">Наверх</a>
+            </p>
+            <p class="mb-1">© 2024 ROSTIC`S</p>
+          </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+      </body>
+{% endblock %}
